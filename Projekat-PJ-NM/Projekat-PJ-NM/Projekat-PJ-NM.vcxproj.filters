@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Accounts">
+      <UniqueIdentifier>{1e69269c-94bd-4776-9121-5cbc7f59da56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accounts">
+      <UniqueIdentifier>{a32f3990-c9cf-461e-9003-7620b6fa5009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagment">
+      <UniqueIdentifier>{1f55ed5a-8f94-428a-ac83-ff7d6f678fa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileManagment">
+      <UniqueIdentifier>{c4d833af-a237-4d6d-beb4-99de8874be25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Course">
+      <UniqueIdentifier>{71906e00-5416-4cdb-9740-682242efc7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileManagment\AccountFiles">
+      <UniqueIdentifier>{abc87598-aabb-417a-8b30-54f8a39e3d90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Course">
+      <UniqueIdentifier>{dc24f26f-1368-4e78-9472-2d905c7ff6d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagment\AccountFiles">
+      <UniqueIdentifier>{55e95c2d-4eaa-4649-8f6a-3d3370a8ceef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagment\Directory">
+      <UniqueIdentifier>{c92efa91-0a07-4388-bb43-316867a58791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileManagment\Directory">
+      <UniqueIdentifier>{2a702862-487a-4f44-b504-ba2d512240f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagment\CourseFiles">
+      <UniqueIdentifier>{14fe4673-a5e6-4ad7-8f1e-8b0160902b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileManagment\CourseFIles">
+      <UniqueIdentifier>{215ee1c3-2798-49fb-b9b1-5acfbdc58a00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FileManagment\Inbox">
+      <UniqueIdentifier>{8c8e3ebf-aa1d-4130-9e17-95ecb68a8f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FileManagment\Inbox">
+      <UniqueIdentifier>{61a6bc34-1db5-435d-9ce4-907a42196594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LogIn">
+      <UniqueIdentifier>{5640d703-f748-45d7-8815-621ae6dd929f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LogIn">
+      <UniqueIdentifier>{3a407c7a-7984-420e-b39f-47222b406cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Precondition">
+      <UniqueIdentifier>{11dee0dc-92b6-4ad6-9dfc-d3cb930dd3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Precondition">
+      <UniqueIdentifier>{06345548-121e-426d-aa19-b06009af51f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Accounts\UserInteraction">
+      <UniqueIdentifier>{28bb7850-9eb7-47cc-a08e-9e0dc27b04c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Accounts\UserInteraction">
+      <UniqueIdentifier>{f8ae46b6-8a9c-40a8-89ca-4f74ef1eb12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GraphSupport">
+      <UniqueIdentifier>{53dfe69e-cbc1-4c76-8af0-828658abb544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GraphSupport">
+      <UniqueIdentifier>{6b54e267-f25a-4726-a3fb-33bcb8175c7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountTraits.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Professor.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>Header Files\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseRequestManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendAccountManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseUserManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestsFileManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseDirectoryManagment.h">
+      <Filter>Header Files\FileManagment\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="UserDirectoryManagment.h">
+      <Filter>Header Files\FileManagment\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseManagment.h">
+      <Filter>Header Files\FileManagment\CourseFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="InboxFileManagment.h">
+      <Filter>Header Files\FileManagment\Inbox</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogIn.h">
+      <Filter>Header Files\LogIn</Filter>
+    </ClInclude>
+    <ClInclude Include="Administrator.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="AccoutManagment.h">
+      <Filter>Header Files\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="Precondition.h">
+      <Filter>Header Files\Precondition</Filter>
+    </ClInclude>
+    <ClInclude Include="NumOfCoursesPrec.h">
+      <Filter>Header Files\Precondition</Filter>
+    </ClInclude>
+    <ClInclude Include="HasHeFinishedCoursePrec.h">
+      <Filter>Header Files\Precondition</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishedCoursesManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CoursePreconditionManagment.h">
+      <Filter>Header Files\FileManagment\CourseFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseInteraction.h">
+      <Filter>Header Files\Course</Filter>
+    </ClInclude>
+    <ClInclude Include="AdministratorInteraction.h">
+      <Filter>Header Files\Accounts\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestInteraction.h">
+      <Filter>Header Files\Accounts\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="InboxInteraction.h">
+      <Filter>Header Files\Accounts\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfessorInteraction.h">
+      <Filter>Header Files\Accounts\UserInteraction</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordRequestManagment.h">
+      <Filter>Header Files\FileManagment\AccountFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphSupport.h">
+      <Filter>Header Files\GraphSupport</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountTraits.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Professor.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>Source Files\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseUserManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendAccountManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseRequestManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestsFileManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDirectoryManagment.cpp">
+      <Filter>Source Files\FileManagment\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseDirectoryManagment.cpp">
+      <Filter>Source Files\FileManagment\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseManagment.cpp">
+      <Filter>Source Files\FileManagment\CourseFIles</Filter>
+    </ClCompile>
+    <ClCompile Include="InboxFileManagment.cpp">
+      <Filter>Source Files\FileManagment\Inbox</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountManagment.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="LogIn.cpp">
+      <Filter>Source Files\LogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="Administrator.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="NumOfCoursesPrec.cpp">
+      <Filter>Source Files\Precondition</Filter>
+    </ClCompile>
+    <ClCompile Include="HasHeFinishedCoursePrec.cpp">
+      <Filter>Source Files\Precondition</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishedCoursesManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="CoursePreconditionManagment.cpp">
+      <Filter>Source Files\FileManagment\CourseFIles</Filter>
+    </ClCompile>
+    <ClCompile Include="CourseInteraction.cpp">
+      <Filter>Source Files\Course</Filter>
+    </ClCompile>
+    <ClCompile Include="InboxInteraction.cpp">
+      <Filter>Source Files\Accounts\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="AdministratorInteraction.cpp">
+      <Filter>Source Files\Accounts\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestInteraction.cpp">
+      <Filter>Source Files\Accounts\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfessorInteraction.cpp">
+      <Filter>Source Files\Accounts\UserInteraction</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordRequestManagment.cpp">
+      <Filter>Source Files\FileManagment\AccountFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphSupport.cpp">
+      <Filter>Source Files\GraphSupport</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
